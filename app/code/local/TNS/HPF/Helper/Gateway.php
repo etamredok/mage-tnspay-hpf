@@ -185,7 +185,6 @@ class Gateway {
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_VERBOSE, 1);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 		
 		$response = array();
 		$response_string = curl_exec($ch);
