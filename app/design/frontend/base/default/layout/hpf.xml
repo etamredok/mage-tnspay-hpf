@@ -8,9 +8,6 @@
 				<template>page/empty.phtml</template>
 			</action>
 		</reference>
-		<reference name="content">
-			<block type="core/template" template="hpf/pay.phtml" />
-		</reference>
 	</hpf_index_index>
 	<checkout_onepage_index>
 		<reference name="head">
